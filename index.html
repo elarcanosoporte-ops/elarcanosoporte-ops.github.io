@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mis Enlaces | Xavier Romero</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: #f4f4f9; /* Color de fondo */
+            color: #333;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            padding: 50px 20px;
+            margin: 0;
+        }
+        .profile-img {
+            width: 120px;
+            height: 120px;
+            border-radius: 50%;
+            object-fit: cover;
+            margin-bottom: 15px;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+        }
+        h1 {
+            font-size: 1.5rem;
+            margin-bottom: 5px;
+        }
+        p {
+            color: #666;
+            margin-bottom: 30px;
+        }
+        .link-container {
+            width: 100%;
+            max-width: 400px;
+            display: flex;
+            flex-direction: column;
+            gap: 15px;
+        }
+        .link-btn {
+            background-color: #fff;
+            color: #333;
+            text-decoration: none;
+            padding: 15px 20px;
+            border-radius: 8px;
+            text-align: center;
+            font-weight: 600;
+            border: 2px solid #e1e1e1;
+            transition: all 0.3s ease;
+        }
+        .link-btn:hover {
+            background-color: #333; /* Color al pasar el ratón */
+            color: #fff;
+            border-color: #333;
+            transform: translateY(-2px);
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Cambia "tu-foto.jpg" por la URL de tu imagen o súbela al repositorio -->
+    <img src="https://via.placeholder.com/120" alt="Foto de perfil" class="profile-img">
+    
+    <h1>Xavier Romero</h1>
+    <p>Desarrollador & Ciberseguridad</p>
+
+    <div class="link-container">
+        <!-- Reemplaza los # con tus enlaces reales -->
+        <a href="#" class="link-btn" target="_blank">Mi GitHub</a>
+        <a href="#" class="link-btn" target="_blank">Mi Portafolio</a>
+        <a href="#" class="link-btn" target="_blank">LinkedIn</a>
+        <a href="mailto:tu-correo@email.com" class="link-btn">Contáctame</a>
+    </div>
+
+</body>
+</html>
